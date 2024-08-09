@@ -1,0 +1,1 @@
+# Avg_Trend_Microservice
