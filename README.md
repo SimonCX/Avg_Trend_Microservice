@@ -35,3 +35,18 @@ Start the server by running the following command:
 ```bash
 python avg_trend_server.py
 ```
+
+#### Example Call
+
+```python
+from avg_trend_client import Avg_trend_client
+
+client = Avg_trend_client()
+
+# Define the list of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Send the request to the microservice
+response = client.calculate_average_and_trend(numbers)
+print("Received response:", response)
+```
