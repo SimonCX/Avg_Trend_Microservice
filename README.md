@@ -16,3 +16,21 @@ First, clone this project from GitHub:
 
 ```bash
 git clone https://github.com/SimonCX/Avg_Trend_Microservice.git
+
+2. Enter the Directory
+Navigate into the cloned repository's directory:
+
+```bash
+cd Avg_Trend_Microservice
+
+4. Install Dependencies
+Install the required Python libraries using pip:
+
+```bash
+pip install numpy pyzmq
+
+5. Run the Service
+Start the server by running the following command:
+
+```bash
+python avg_trend_server.py
