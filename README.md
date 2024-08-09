@@ -50,3 +50,6 @@ numbers = [10, 20, 30, 40, 50]
 response = client.calculate_average_and_trend(numbers)
 print("Received response:", response)
 ```
+
+##### UML Diagram
+![image](https://github.com/user-attachments/assets/615a064b-e7c3-4274-94aa-94a4847afaff)
