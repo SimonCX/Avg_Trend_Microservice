@@ -8,3 +8,7 @@ This project implements a microservice that calculates the average and determine
 
 Install the required libraries using pip:
 pip install numpy pyzmq
+
+### Requesting Data
+
+To request data from the microservice, run the avg_trend_service.py first and send a list of numbers as a space-separated string to the server using the `calculate_average_and_trend` method in the `Avg_trend_client` class. The server will process the data and return the average and trend.
