@@ -23,13 +23,13 @@ Navigate into the cloned repository's directory:
 ```bash
 cd Avg_Trend_Microservice
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 Install the required Python libraries using pip:
 
 ```bash
 pip install numpy pyzmq
 ```
-4. Run the Service
+### 4. Run the Service
 Start the server by running the following command:
 
 ```bash
